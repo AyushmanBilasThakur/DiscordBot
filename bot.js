@@ -17,7 +17,6 @@ bot.on("message", async message => {
     if(command == prefix+'myinfo'){
         let embed = new Discord.RichEmbed()
             .setAuthor(message.author.username)
-            .setDescription("I think I know you...")
             .setColor("#dd0014")
             .addField("Full Username :: " , message.author.username + " " + message.author.discriminator)
             .addField("ID :: ", message.author.id)
